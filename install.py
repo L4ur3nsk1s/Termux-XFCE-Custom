@@ -40,7 +40,7 @@ try:
     input("Press any key to continue...")
     run_command("termux-setup-storage")
 
-    pkgs = ['wget', 'ncurses-utils', 'dbus', 'proot-distro', 'x11-repo', 'tur-repo', 'pulseaudio']
+    pkgs = ['wget', 'python', 'ncurses-utils', 'dbus', 'proot-distro', 'x11-repo', 'tur-repo', 'pulseaudio']
 
     run_command("pkg uninstall dbus -y")
     run_command("pkg update")
