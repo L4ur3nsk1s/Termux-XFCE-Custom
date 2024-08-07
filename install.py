@@ -51,14 +51,14 @@ try:
     os.makedirs("Downloads", exist_ok=True)
 
     # Download required install scripts
-    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/xfce.sh")
-    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/proot.sh")
-    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/utils.sh")
+    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/xfce.py")
+    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/proot.py")
+    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/utils.py")
     run_command("chmod +x *.sh")
 
-    run_command(f"./xfce.sh {username}")
-    run_command(f"./proot.sh {username}")
-    run_command("./utils.sh")
+    run_command(f"./xfce.py {username}")
+    run_command(f"./proot.py {username}")
+    run_command("./utils.py")
 
     # Display a message and wait for a single character input
     os.system("clear -x")
@@ -78,10 +78,10 @@ try:
     print("\nTo exit, double click the Kill Termux X11 icon on the panel.")
     print("\nEnjoy your Termux XFCE4 Desktop experience!\n\n")
 
-    os.remove("xfce.sh")
-    os.remove("proot.sh")
-    os.remove("utils.sh")
-    os.remove("install.sh")
+    os.remove("xfce.py")
+    os.remove("proot.py")
+    os.remove("utils.py")
+    os.remove("install.py")
 
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
