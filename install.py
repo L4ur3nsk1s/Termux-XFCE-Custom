@@ -51,9 +51,9 @@ try:
     os.makedirs("Downloads", exist_ok=True)
 
     # Download required install scripts
-    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/xfce.py")
-    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/proot.py")
-    run_command("wget https://github.com/phoenixbyrd/Termux_XFCE/raw/main/utils.py")
+    run_command("wget https://github.com/L4ur3nsk1s/Termux-XFCE-Custom/raw/main/xfce.py")
+    run_command("wget https://github.com/L4ur3nsk1s/Termux-XFCE-Custom/raw/main/proot.py")
+    run_command("wget https://github.com/L4ur3nsk1s/Termux-XFCE-Custom/raw/main/utils.py")
     run_command("chmod +x *.sh")
 
     run_command(f"./xfce.py {username}")
