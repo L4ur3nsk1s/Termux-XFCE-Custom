@@ -84,7 +84,7 @@ run_command("wget https://github.com/L4ur3nsk1s/Termux-XFCE-Custom/raw/main/Noto
 run_command("mv NotoColorEmoji-Regular.ttf .fonts")
 
 run_command("wget https://github.com/L4ur3nsk1s/Termux-XFCE-Custom/raw/main/font.ttf")
-run_command("mv font.ttf .termux/font.ttf")
+run_command("mv font.ttf .fonts/")
 
 # Setup Fancybash Termux
 run_command("wget https://raw.githubusercontent.com/L4ur3nsk1s/Termux-XFCE-Custom/main/fancybash.sh")
