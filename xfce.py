@@ -28,8 +28,8 @@ pkgs = [
 run_command(f"pkg install {' '.join(pkgs)} -y -o Dpkg::Options::='--force-confold'")
 
 # Put Firefox icon on Desktop
-run_command("cp $PREFIX/share/applications/firefox.desktop $HOME/Desktop")
-run_command("chmod +x $HOME/Desktop/firefox.desktop")
+#run_command("cp $PREFIX/share/applications/firefox.desktop $HOME/Desktop")
+#run_command("chmod +x $HOME/Desktop/firefox.desktop")
 
 # Set aliases
 aliases = f"""
