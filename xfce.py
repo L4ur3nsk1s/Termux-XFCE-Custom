@@ -54,11 +54,11 @@ run_command("mv peakpx.jpg $PREFIX/share/backgrounds/xfce/")
 run_command("mv dark_waves.png $PREFIX/share/backgrounds/xfce/")
 
 # Install WhiteSur-Dark Theme
-run_command("wget https://github.com/vinceliuice/WhiteSur-gtk-theme/archive/refs/tags/2023-04-26.zip")
-run_command("unzip 2023-04-26.zip")
-run_command("tar -xf WhiteSur-gtk-theme-2023-04-26/release/WhiteSur-Dark-44-0.tar.xz")
-run_command("mv WhiteSur-Dark/ $PREFIX/share/themes/")
-run_command("rm -rf WhiteSur* 2023-04-26.zip")
+#run_command("wget https://github.com/vinceliuice/WhiteSur-gtk-theme/archive/refs/tags/2023-04-26.zip")
+#run_command("unzip 2023-04-26.zip")
+#run_command("tar -xf WhiteSur-gtk-theme-2023-04-26/release/WhiteSur-Dark-44-0.tar.xz")
+#run_command("mv WhiteSur-Dark/ $PREFIX/share/themes/")
+#run_command("rm -rf WhiteSur* 2023-04-26.zip")
 
 # Install Fluent Cursor Icon Theme
 run_command("wget https://github.com/vinceliuice/Fluent-icon-theme/archive/refs/tags/2023-02-01.zip")
